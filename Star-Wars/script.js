@@ -19,9 +19,9 @@ function displayCharacters(characters) {
         characterCard.className = 'col-md-4 mb-4';
         characterCard.innerHTML = `
             <div class="card text-center h-1000">
-               <img src="https://starwars-visualguide.com/assets/img/characters/2.jpg" class="card-img-top" alt="${character.name}">
+               <img src="https://starwars-visualguide.com/assets/img/characters/2.jpg" class="card-img-top" onclick='displayCharacterDetail(${JSON.stringify(character)})' alt="${character.name}">
                 <div class="card-body">
-                    <h5 class="card-title">${character.name}</h5>
+                    <h5 class="card-title" onclick='displayCharacterDetail(${JSON.stringify(character)})'>${character.name}</h5>
                     <button class="btn btn-primary" onclick='displayCharacterDetail(${JSON.stringify(character)})'>Ver</button>
                 </div>
             </div>

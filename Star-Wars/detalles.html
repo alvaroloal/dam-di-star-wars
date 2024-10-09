@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista - Personajes - Star Wars</title>
+    <title>Detalles - Star Wars</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
+
 </head>
-<body class="bg-light text-dark">
+<body>
     <header class="navbar navbar-expand-lg navbar-dark shadow-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
@@ -33,37 +34,24 @@
                 </ul>
             </div>
             <div>
-                <a href="index.html"><img src="./img/dv.png" alt="Icono Star Wars" class="pokeball-icon" style="width: 100px;"></a>
+                <a href="index.html"><img src="./img/dv.png" alt="Icono Star Wars" class="pokeball-icon" style="width: 50px;"></a>
             </div>
         </div>
     </header>
-    
     <main class="container my-5">
         <div class="row">
-            <div class="col-lg-2 d-none d-lg-block">
-            
-                <div class="mb-4">
-                    <img src="./img/aside.jpg" alt="Anuncio" class="img-fluid">
-                </div>
-                <div>
-                    <img src="./img/aside3.jpg" alt="Anuncio" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-8 text-center">
-                <h2 class="text-center mb-4">Personajes de Star Wars</h2>
-                <div class="row mt-2 mb-4" id="characterDisplay">
-                
-                </div>
-            </div>
-
-            <div class="col-lg-2 d-none d-lg-block">
-            
-                <div class="mb-4">
-                    <img src="./img/aside3.jpg" alt="Anuncio" class="img-fluid">
-                </div>
-                <div>
-                    <img src="./img/aside.jpg" alt="Anuncio" class="img-fluid">
+            <div class="col-md-12">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3 id="characterName">Nombre del Personaje</h3>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Detalles del Personaje</h5>
+                        <p id="characterDetails"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="index.html" class="btn btn-primary">Volver</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,7 +73,7 @@
                 <i class="fab fa-facebook-f"></i>
             </a>
             <a href="https://twitter.com" class="text-white me-2" target="_blank">
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-x"></i>
             </a>
             <a href="https://instagram.com" class="text-white me-2" target="_blank">
                 <i class="fab fa-instagram"></i>
@@ -94,6 +82,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./script.js" defer></script>
+    <script src="./detalles.js" defer></script>
 </body>
 </html>

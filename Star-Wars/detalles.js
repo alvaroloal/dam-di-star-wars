@@ -10,5 +10,6 @@ if (character) {
         <p><strong>Color de ojos:</strong> ${character.eye_color}</p>
         <p><strong>Año de nacimiento:</strong> ${character.birth_year}</p>
         <p><strong>Género:</strong> ${character.gender}</p>
+
     `;
 }

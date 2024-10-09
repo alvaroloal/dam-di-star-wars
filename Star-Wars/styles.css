@@ -1,6 +1,6 @@
 body {
-    background-color: #f8f9fa; 
-    color: #000000; 
+    background-color: #f8f9fa;
+    color: #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100%;
     margin: 0;
@@ -11,11 +11,13 @@ body {
 main {
     flex: 1;
 }
-.navbar{
-    background: -webkit-linear-gradient(90deg, #1a1e28,#3b3b33,#ab9462);
-    background: linear-gradient(90deg, #1a1e28,#3b3b33,#ab9462);
+
+.navbar {
+    background: -webkit-linear-gradient(90deg, #1a1e28, #3b3b33, #ab9462);
+    background: linear-gradient(90deg, #1a1e28, #3b3b33, #ab9462);
 }
-.navbar-nav  {
+
+.navbar-nav {
     background-color: #92918b;
     position: relative;
     padding: 10px 15px;
@@ -23,7 +25,8 @@ main {
     border-radius: 8px;
     color: white;
 }
-.nav-link{
+
+.nav-link {
     background-color: #92918b;
 }
 
@@ -49,29 +52,29 @@ h2 {
 .card {
     background-color: #ffffff;
     border: 1px solid #92918b;
-    transition: transform 0.2s; 
+    transition: transform 0.2s;
 }
 
 
 
 .card-title {
-    color: #ffcc00; 
-    font-family: 'Star Jedi', sans-serif; 
+    color: #ffcc00;
+    font-family: 'Star Jedi', sans-serif;
 }
 
 .footer {
-    background: -webkit-linear-gradient(90deg, #1a1e28,#3b3b33,#ab9462);
-    background: linear-gradient(90deg, #1a1e28,#3b3b33,#ab9462);
+    background: -webkit-linear-gradient(90deg, #1a1e28, #3b3b33, #ab9462);
+    background: linear-gradient(90deg, #1a1e28, #3b3b33, #ab9462);
 }
 
 .footer a {
-    color: #ffcc00; 
+    color: #ffcc00;
 }
 
 footer .fab {
     font-size: 1.5rem;
 }
 
-.d-flex{
+.d-flex {
     background-color: #302e26;
 }
